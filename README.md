@@ -3,7 +3,7 @@
 ## Description
 * Predicted 1-step signal magnitude to observe the performance of simple momentum strategy in HMM framework and IOHMM framework when side information like seasonality and volatility are introduced using spline methods.
 
-## Abstract (mainly from first reference)
+## Abstract (From First Reference)
 * A Hidden Markov Model for intraday momentum trading is presented which specifies a latent momentum state responsible for generating the observed securities’ noisy returns.
 * Existing momentum trading models suffer from time-lagging caused by the delayed frequency response of digital filters. Time-lagging results in a momentum signal of the wrong sign, when the market changes trend direction. A key feature of this state space formulation, is no such lagging occurs, allowing for accurate shifts in signal sign at market change points.
 * An Input Output Hidden Markov Model is used to incorporate these univariate predictive signals into the transition matrix, presenting a possible solution for dealing with the signal combination problem.
